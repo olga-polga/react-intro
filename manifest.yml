@@ -1,0 +1,6 @@
+---
+applications:
+  - name: mushroom-c
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    path: .
+    instances: 1

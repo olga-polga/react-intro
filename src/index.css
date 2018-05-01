@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  color: rebeccapurple;
+}
+li {
+  text-align: left;
+  list-style: lower-alpha;
+}
+.Main {
+  margin-left: 88px;
+  width: 288px;
+  color: #485074;
+  text-align: left;
+}
