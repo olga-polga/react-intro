@@ -14,6 +14,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "pcf": "yarn build && cf push -p build"
+    "PCF": "yarn build && cf push -p build"
   }
 }
