@@ -5,15 +5,33 @@ body {
 }
 
 ul {
-  color: rebeccapurple;
+  padding: 0;
 }
+
 li {
   text-align: left;
-  list-style: lower-alpha;
+  list-style: none;
+  padding: 8px;
 }
+
+.selected {
+  color: #add43c;
+  background-color: #485074;
+}
+
 .Main {
-  margin-left: 88px;
-  width: 288px;
+  float: right;
+  width: 70%;
   color: #485074;
   text-align: left;
+  margin-right: 10px;
+}
+
+.Left-nav {
+  float: left;
+  margin-left: 10px;
+  width: 25%;
+  color: rebeccapurple;
+  background-color: cadetblue;
+
 }
