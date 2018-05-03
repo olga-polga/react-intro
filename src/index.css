@@ -12,6 +12,10 @@ li {
   text-align: left;
   list-style: none;
   padding: 8px;
+
+}
+li:hover {
+  color: orangered;
 }
 
 .selected {
@@ -35,3 +39,12 @@ li {
   background-color: cadetblue;
 
 }
+.edit-area {
+  float: left;
+  width: 252px;
+  margin-left: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
